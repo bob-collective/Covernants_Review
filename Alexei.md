@@ -4,7 +4,7 @@ This review is done considering my main interest is to create Bitcoin L2s:
 
 OP_CTV
 ```
-- Not useful for BitVM2 because it cannot commit to inputs, meaning it cannot be used to simplify the connector-output construction. 
+Not useful for BitVM2 because it cannot commit to inputs, meaning it cannot be used to simplify the connector-output construction. 
 
 ```
 
@@ -28,7 +28,10 @@ OP_CAT
 ```
 Evaluating
 
-The main pitch here is that we could implement a SNARK or START verifier in Bitcoin script. Evaluating if this is feasible in terms of executing proofs regularly and how this can improve the Bitcoin bridge design. My feeling is that we will need optimistic verification even with OP_CAT. 
+The main pitch here is that we could implement a SNARK or START verifier in Bitcoin script. 
+Evaluating if this is feasible in terms of executing proofs regularly and how this can improve the Bitcoin bridge design. 
+My feeling is that we will need optimistic verification even with OP_CAT. 
+
 ```
 
 OP_CCV
